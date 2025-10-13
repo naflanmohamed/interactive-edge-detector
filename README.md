@@ -33,7 +33,7 @@ To run this application locally, you'll need Python 3.8+ and Git installed.
 **1. Clone the repository:**
 
 ```bash
-git clone (https://github.com/naflanmohamed/interactive-edge-detector.git)
+git clone https://github.com/naflanmohamed/interactive-edge-detector.git
 cd interactive-edge-detector
 ```
 
