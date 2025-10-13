@@ -2,6 +2,10 @@
 
 This project is a user-friendly web application built with Python, Streamlit, and OpenCV that allows for visual experimentation with different edge detection algorithms. Users can upload an image and dynamically adjust algorithm parameters to see the results in real-time.
 
+# Live Link 👇🏻
+
+[https://interactive-edge-detector.streamlit.app](https://interactive-edge-detector.streamlit.app/)
+
 ## Application Interface & Output
 
 Here is a screenshot of the application's user interface, showing the input/output displays and the control panel in the sidebar.
