@@ -6,13 +6,13 @@ This project is a user-friendly web application built with Python, Streamlit, an
 
 Here is a screenshot of the application's user interface, showing the input/output displays and the control panel in the sidebar.
 
-![Application UI Overview](screenshots/ui.png)
+![Application UI Overview](screenshots/UI.png)
 
 ### Example: Canny Edge Detection
 
 Below is an example showing the Canny algorithm applied to an image, with its parameters adjusted via the sidebar controls.
 
-![Canny Edge Detection Example](screenshots/canny.png)
+![Canny Edge Detection Example](screenshots/Canny.png)
 
 ### Example: Laplacian Edge Detection
 
@@ -33,7 +33,7 @@ To run this application locally, you'll need Python 3.8+ and Git installed.
 **1. Clone the repository:**
 
 ```bash
-git clone ![https://github.com/naflanmohamed/interactive-edge-detector.git](https://github.com/naflanmohamed/interactive-edge-detector.git)
+git clone (https://github.com/naflanmohamed/interactive-edge-detector.git)
 cd interactive-edge-detector
 ```
 
