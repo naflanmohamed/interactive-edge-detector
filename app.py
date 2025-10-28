@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
+
 def sobel_edge_detection(image, ksize, direction):
 
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
