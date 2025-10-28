@@ -3,10 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-
-
 def sobel_edge_detection(image, ksize, direction):
-    """Applies Sobel Edge Detection"""
 
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     
@@ -19,7 +16,7 @@ def sobel_edge_detection(image, ksize, direction):
         grad_y = cv2.Sobel(gray, cv2.CV_64F, 0, 1, ksize=ksize)
         abs_grad_y = cv2.convertScaleAbs(grad_y)
         return abs_grad_y
-    else: # Both X and Y
+    else: 
         grad_x = cv2.Sobel(gray, cv2.CV_64F, 1, 0, ksize=ksize)
         grad_y = cv2.Sobel(gray, cv2.CV_64F, 0, 1, ksize=ksize)
         abs_grad_x = cv2.convertScaleAbs(grad_x)
@@ -28,7 +25,6 @@ def sobel_edge_detection(image, ksize, direction):
         return grad
 
 def laplacian_edge_detection(image, ksize):
-    """Applies Laplacian Edge Detection"""
   
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
  
@@ -37,7 +33,6 @@ def laplacian_edge_detection(image, ksize):
     return abs_laplacian
 
 def canny_edge_detection(image, low_thresh, high_thresh, ksize, sigma):
-    """Applies Canny Edge Detection"""
   
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     
